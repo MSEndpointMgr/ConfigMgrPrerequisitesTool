@@ -24,18 +24,18 @@ The ConfigMgr Prerequisites Tool will help you to successfully prepare your envi
 ### In addition to what’s mentioned above, the tool will also allow you to:
 
 - Configuration Manager configuration:
- - Download prerequisite files for Configuration Manager setup
- - Download and install Windows Assessment and Deployment Kit (ADK)
- - Create NO_SMS_ON_DRIVE.SMS files to prevent unwanted volumes to be used by Configuration Manager
+  - Download prerequisite files for Configuration Manager setup
+  - Download and install Windows Assessment and Deployment Kit (ADK)
+  - Create NO_SMS_ON_DRIVE.SMS files to prevent unwanted volumes to be used by Configuration Manager
 - Active Directory configuration:
- - Extend Active Directory schema
- - Create System Management container in Active Directory
- - Configure permissions on System Management container
+  - Extend Active Directory schema
+  - Create System Management container in Active Directory
+  - Configure permissions on System Management container
 - SQL Server configuration:
- - Configure SQL Server memory usage settings
- - Validate SQL Server collation
- - Pre-create the Configuration Manager database
- - Configure SSRS database file size settings
+  - Configure SQL Server memory usage settings
+  - Validate SQL Server collation
+  - Pre-create the Configuration Manager database
+  - Configure SSRS database file size settings
 
 # Documentation
 Read the attached PDF file for more details about the ConfigMgr Prerequisites Tool and the functionality it has.
