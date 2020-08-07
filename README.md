@@ -1,6 +1,42 @@
 # ConfigMgr Prerequisites Tool
 ConfigMgr Prerequisites Tool is design to help administrators prepare their infrastructure and systems when about to install Configuration Manager.
 
+Preparing your environment for a successful deployment of System Center Configuration Manager should not be an obstacle or time consuming. Many of the issues that might occur during the initial installation process can often be resolved by making sure that the correct prerequisites are in place.
+The ConfigMgr Prerequisites Tool will help you to successfully prepare your environment allowing you to install the required software and Windows features.
+
+### Prepare for an installation of the following Site types:
+
+- Central Administration Site
+- Primary Site
+- Secondary Site
+
+### And the following Site System roles:
+
+- Management Point
+- Distribution Point
+- Software Update Point
+- State Migration Point
+- Application Catalog
+- Enrollment Point
+- Enrollment Proxy Point
+- Certificate Registration Point
+
+### In addition to what’s mentioned above, the tool will also allow you to:
+
+- Configuration Manager configuration:
+ - Download prerequisite files for Configuration Manager setup
+ - Download and install Windows Assessment and Deployment Kit (ADK)
+ - Create NO_SMS_ON_DRIVE.SMS files to prevent unwanted volumes to be used by Configuration Manager
+- Active Directory configuration:
+ - Extend Active Directory schema
+ - Create System Management container in Active Directory
+ - Configure permissions on System Management container
+- SQL Server configuration:
+ - Configure SQL Server memory usage settings
+ - Validate SQL Server collation
+ - Pre-create the Configuration Manager database
+ - Configure SSRS database file size settings
+
 # Documentation
 Read the attached PDF file for more details about the ConfigMgr Prerequisites Tool and the functionality it has.
 
